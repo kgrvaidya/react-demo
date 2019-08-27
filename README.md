@@ -28,7 +28,7 @@ This command will install all the dependencies.
 $npm install
 ```
 
-## Running the demo-app
+## Running the react-demo
 
 paste this code in your terminal to run the app
 
