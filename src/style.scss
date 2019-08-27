@@ -1,5 +1,25 @@
-$body-color : red;
+@import 'scss/variables';
 
-body {
-    color : $body-color
+.day {
+    background-color: $primaryColor;
+    color : $secondaryColor;
+}
+
+.night {
+    background-color: $secondaryColor;
+    color : $primaryColor;
+}
+
+
+#clock {
+    margin-left : 25%;
+    margin-right : 25%;
+    margin-top : 40vh;
+    font-size: $primary-font-size;
+}
+#mode-button {
+    align-content: center;
+    width : 80%;
+    height : 10%;
+    font-size: $secondary-font-size
 }

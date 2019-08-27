@@ -1,0 +1,11 @@
+$primaryColor : white;
+$primary-font-size : 1.5rem;
+$secondary-font-size : 1rem;
+$secondaryColor : black;
+
+
+:export {
+    primaryColor : $primaryColor;
+    primary-font-size : $primary-font-size;
+    secondaryColor : $secondaryColor;
+}
