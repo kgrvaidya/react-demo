@@ -41,7 +41,6 @@ class Clock extends Component {
             divi.classList.remove('night');
         }
         this.setState({isDayMode : !this.state.isDayMode})
-
     }
 
     render() {

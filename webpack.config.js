@@ -36,5 +36,8 @@ module.exports = {
     output : {
         path : __dirname + '/dist/',
         filename : 'App.js'
+    },
+    optimization : {
+        minimize : true
     }
 }
